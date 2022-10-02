@@ -1,0 +1,11 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "asc --target release --use seed=main/myseed",
+    "build:debug": "asc --target debug --use seed=main/myseed"
+  },
+  "devDependencies": {
+    "assemblyscript": "^0.19.12"
+  }
+}
